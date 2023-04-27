@@ -77,7 +77,7 @@ wMod.modal = function (options) {
 }
 
 document.addEventListener('click', event => {
-  event.preventDefault()
+  // event.preventDefault()
   const btnType = event.target.dataset.btn
 
   if (btnType === 'show') {
