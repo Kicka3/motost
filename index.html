@@ -1,0 +1,2256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="headerTop">
+      <div class="container">
+        <div class="headerTopInner">
+          <nav class="menu">
+            <button class="menu__btn">
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+            </button>
+            <ul class="menuList">
+              <li class="menuItem">
+                <a class="menuLink" href="#">
+                  Магазин
+                </a>
+              </li>
+              <li class="menuItem">
+                <a class="menuLink" href="#">
+                  Акции
+                </a>
+              </li>
+              <li class="menuItem">
+                <a class="menuLink" href="#">
+                  Доставка и оплата
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <a class="logo" href="index.html">
+            <img class="logoImg" src="images/logo.svg" alt="">
+          </a>
+          <div class="headerBox">
+            <a class="headerAdress"
+              href="https://www.google.com/maps/place/%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3,+%D0%A1%D0%B2%D0%B5%D1%80%D0%B4%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@56.8207678,60.54855,11.1z/data=!4m6!3m5!1s0x43c165eaa062db4b:0xd50243d7f7567f20!8m2!3d56.8430993!4d60.6454086!16zL20vMGhrcG4!5m1!1e1?hl=ru-RU"
+              target="_blank">
+              Екатеринбург, ул. Папанина 3
+            </a>
+            <ul class="userList">
+              <li class="user-listItem">
+                <a class="user-listLink" href="#">
+                  <img src="images/heart.svg" alt="">
+                </a>
+              </li>
+              <li class="user-listItem li">
+                <a class="user-listLink" href="#">
+                  <img src="images/user.svg" alt="">
+                </a>
+              </li>
+              <li class="user-listItem li">
+                <a class="user-listLink basket" href="#">
+                  <img src="images/basket.svg" alt="">
+                  <p class="basket__num">2</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="menu-mobile__list">
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/user.svg" alt="">
+          <p>Войти</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/user.svg" alt="">
+          <p>Регистрация</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/heart.svg" alt="">
+          <span>Избранное</span>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/basket.svg" alt="">
+          <p>Корзина</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/house.svg" alt="">
+          <p>Магазины</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/procent.svg" alt="">
+          <p>Акции</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/box.svg" alt="">
+          <p>Доставка и оплата</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Квадрациклы</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="boads.html">
+          <p>Катера</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="catalog.html">
+          <p>Гидроциклы</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Лодки</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Вездеходы</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Снегоходы</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Двигатели</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Запчасти</p>
+        </a>
+      </li>
+    </ul>
+    <div class="menu__mobile-linewrapper">
+      <ul class="menu__mobile-line">
+        <li class="menuItem">
+          <a class="menuLink" href="#">
+            Магазин
+          </a>
+        </li>
+        <li class="menuItem">
+          <a class="menuLink" href="#">
+            Акции
+          </a>
+        </li>
+        <li class="menuItem">
+          <a class="menuLink" href="#">
+            Доставка и оплата
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="headerBottom">
+      <div class="container">
+        <ul class="menu-categories">
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="#">Квадрациклы</a>
+          </li>
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="boads.html">Катера</a>
+          </li>
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="catalog.html">Гидроцилкы</a>
+          </li>
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="#">Лодки</a>
+          </li>
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="#">Вездеходы</a>
+          </li>
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="#">Снегоходы</a>
+          </li>
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="#">Двигатели</a>
+          </li>
+          <li class="menu-categoriesItem">
+            <a class="menu-categoriesLink" href="#">Запчасти</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <setcion class="banner-section page-section">
+    <div class="container">
+      <div class="banner-sectionInner">
+        <div class="banner-sectionSlider">
+          <a class="banner-sectionSlider-item" href="#">
+            <img class="banner-sectionSlider-img" src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-sectionSlider-item" href="#">
+            <img class="banner-sectionSlider-img" src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-sectionSlider-item" href="#">
+            <img class="banner-sectionSlider-img" src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-sectionSlider-item" href="#">
+            <img class="banner-sectionSlider-img" src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-sectionSlider-item" href="#">
+            <img class="banner-sectionSlider-img" src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-sectionSlider-item" href="#">
+            <img class="banner-sectionSlider-img" src="images/banner-slider.jpg" alt="">
+          </a>
+        </div>
+        <a class="banner-sectionItem sale-item" href="#">
+          <div class="sale-item-top">
+            <p class="sale-itemInfo">
+              Акция
+            </p>
+            <div class="sale-itemPrice">
+              <div class="price sale-itemPrice-new">190 000</div>
+              <div class="price sale-itemPrice-old">225 000</div>
+            </div>
+          </div>
+          <img class="sale-itemImg" src="images/contant/sale-1.png" alt="">
+          <h5 class="sale-item-title">
+            Лодочный мотор Suzuki DF9.9BRS
+          </h5>
+          <p class="sale-item-footer">
+            Акция действует до
+            <span>31.08.2023</span>
+          </p>
+        </a>
+      </div>
+    </div>
+  </setcion>
+
+  <div class="search page-section">
+    <div class="container">
+      <div class="search__inner">
+        <div class="search__tabs tabs-wrapper">
+          <div class="mobile-overflow">
+            <a class="tab search__tabs-item tab--active" href="#tab-1">Поиск по номеру</a>
+            <a class="tab search__tabs-item" href="#tab-2">Поиск по марке</a>
+            <a class="tab search__tabs-item" href="#tab-3">Поиск по названию товара</a>
+          </div>
+        </div>
+        <div class="search__content">
+          <div id="tab-1" class="tabs-content search__content-item tabs-content--active">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введите номер">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+          <div id="tab-2" class="tabs-content search__content-item">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введите марку">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+          <div id="tab-3" class="tabs-content search__content-item">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введите название товара">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="categories page-section">
+    <div class="container">
+      <div class="categories__inner">
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Квадрациклы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-1.png" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="catalog.html">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Гидроциклы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-2.png" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="boads.html">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Катера</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-3.png" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Снегоходы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-4.png" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Вездеходы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-5.png" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Двигатели</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-6.png" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="products">
+    <div class="container">
+      <div class="products__inner">
+        <h3 class="prouct__title">Популярные товары</h3>
+        <div class="tabs-wrapper">
+          <div class="tabs products__tabs mobile-overflow">
+            <a class="tab products__tab tab--active" href="#product-tab-1">Запчасти</a>
+            <a class="tab products__tab" href="#product-tab-2">Моторы</a>
+            <a class="tab products__tab" href="#product-tab-3">Шины</a>
+            <a class="tab products__tab" href="#product-tab-4">Электроника</a>
+            <a class="tab products__tab" href="#product-tab-5">Инструменты</a>
+            <a class="tab products__tab" href="#product-tab-6">Аксессуары</a>
+          </div>
+        </div>
+        <div class="tabs-container products__container">
+          <div id="product-tab-1" class="tabs-content products__content tabs tabs-content--active">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/sparts/sparts1.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Крыльчатка помпы охлаждения
+                      T15
+                    </h4>
+                    <p class="price productItem__price">
+                      1 600 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/sparts/sparts2.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Прокладка под головку цилиндров
+                      Mercury 18
+                    </h4>
+                    <p class="price productItem__price">
+                      3 500 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/sparts/sparts3.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Свеча для мотора
+                      NGK B7HS
+                    </h4>
+                    <p class="price productItem__price">
+                      300 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/sparts/sparts4.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Аккумулятор Leoch DJM 1255
+                    </h4>
+                    <p class="price productItem__price">
+                      6 500 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/sparts/sparts5.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Указатель уровня топлива (PR)
+                    </h4>
+                    <p class="price productItem__price">
+                      3 200 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/sparts/sparts6.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Тахометр 8000 об/мин
+                      для ПЛМ (BS)
+                    </h4>
+                    <p class="price productItem__price">
+                      3 500 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/sparts/sparts7.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Винт 3 лопасти для электромоторов
+                      Watersnake 44-54LBS
+                    </h4>
+                    <p class="price productItem__price">
+                      1 990 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="product-tab-2" class="tabs-content products__content">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor1.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      WaterSnake T18-FW (0.26 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      8 900 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor2.png" alt="">
+                    <h4 class="productItem__title">
+                      Электромотор Condor
+                      NRS-46X (0,65 л.с.)
+                    </h4>
+                    <p class="price productItem__price">
+                      18 300 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor3.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Sea-ProT 2,6 S (2.6 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor4.png" alt="">
+                    <h4 class="productItem__title">
+                      Электромотор
+                      HDX 55L (0.49 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      28 600 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor5.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Sea-Pro T 3 S (3 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      37 500 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor6.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Suzuki DT9.9A S (9.9 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      240 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor7.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Mercury ME-30 M (30 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      300 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="product-tab-3" class="tabs-content products__content tabs">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tires/tires1.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Шина для квадроцикла
+                      ARISUN AT-12 27x12 -14 6PR TL
+                    </h4>
+                    <p class="price productItem__price">
+                      8 390 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tires/tires2.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Шина для квадроцикла
+                      ARISUN AT-12 26x12 -12 6PR TL
+                    </h4>
+                    <p class="price productItem__price">
+                      6 840 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tires/tires3.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Шина для квадроцикла
+                      Wanda P347 21x7.00 -10 4PR TL
+                    </h4>
+                    <p class="price productItem__price">
+                      3 540 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tires/tires4.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Шина для квадроцикла
+                      ARISUN AR-06 20x11 -9 6PR TL
+                    </h4>
+                    <p class="price productItem__price">
+                      4 960 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tires/tires5.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Шина для квадроцикла
+                      CST Wild Thang CU06 25x10.00 -12 6PR TL
+                    </h4>
+                    <p class="price productItem__price">
+                      7 260 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tires/tires6.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Шина для квадроцикла
+                      Wanda P375 26x12.00 -12 6PR TL
+                    </h4>
+                    <p class="price productItem__price">
+                      8 550 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tires/tires7.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Шина для квадроцикла
+                      Wanda P319 145x70 -6 4PR TL
+                    </h4>
+                    <p class="price productItem__price">
+                      2 100 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="product-tab-4" class="tabs-content products__content tabs">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/elect/display.png" alt="">
+                    <h4 class="productItem__title">
+                      Сенсорный эхалот картплоттер
+                      Elite-7Ti
+                    </h4>
+                    <p class="price productItem__price">
+                      73 230 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/elect/lights.png" alt="">
+                    <h4 class="productItem__title">
+                      Комплект ходовых огней
+                      черный корпус
+                    </h4>
+                    <p class="price productItem__price">
+                      1 590 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/elect/panel.png" alt="">
+                    <h4 class="productItem__title">
+                      Панель управления водооткачивающей помпой
+                      auto-off-manual
+                    </h4>
+                    <p class="price productItem__price">
+                      5 486 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/elect/pereklyuchatel.png" alt="">
+                    <h4 class="productItem__title">
+                      Переключатель трехпозиционный
+                      ON-OFF-ON 12 В/16А 3Р
+                    </h4>
+                    <p class="price productItem__price">
+                      416 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/elect/radio.png" alt="">
+                    <h4 class="productItem__title">
+                      Морская радиостанция
+                      AIS Garmin VHF 100i
+                    </h4>
+                    <p class="price productItem__price">
+                      30 322 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/elect/radio2.png" alt="">
+                    <h4 class="productItem__title">
+                      Морская радиостанция
+                      AIS Garmin AIS 300
+                    </h4>
+                    <p class="price productItem__price">
+                      40 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/elect/zaryadnyy.png" alt="">
+                    <h4 class="productItem__title">
+                      Зарядный береговой
+                      модуль 700 Quick
+                    </h4>
+                    <p class="price productItem__price">
+                      98 320 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="product-tab-5" class="tabs-content products__content tabs">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tools/accum.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Аккумуляторная машинка
+                      Mirka AOS-B 130NV
+                    </h4>
+                    <p class="price productItem__price">
+                      93 876 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tools/contacts.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Инструмент для чистки полюсных контактов АКБ
+                    </h4>
+                    <p class="price productItem__price">
+                      580 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tools/davis.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Универсальный палубный
+                      ключ "davis"
+                    </h4>
+                    <p class="price productItem__price">
+                      2 424 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tools/tool.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Набор инструмента 1/4 и 1/2
+                      FORSAGE
+                    </h4>
+                    <p class="price productItem__price">
+                      10 425 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tools/keyuniver.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Ключ универсальный SPI
+                    </h4>
+                    <p class="price productItem__price">
+                      1 270 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tools/meter.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Иизмеритель натяжения ремня SPI
+                    </h4>
+                    <p class="price productItem__price">
+                      2 610 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/tools/piston.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Съемник поршневого пальца
+                    </h4>
+                    <p class="price productItem__price">
+                      2 810 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="product-tab-6" class="tabs-content products__content tabs">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/accsess/mancust.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Мужской костюм
+                      Толщина 3 мм
+                    </h4>
+                    <p class="price productItem__price">
+                      7 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/accsess/accs7.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Защита редуктора
+                      Tohatsu M6B/8B/9.8B
+                    </h4>
+                    <p class="price productItem__price">
+                      7 500 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/accsess/accs1.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Весло лодочное разборное 1,8 м
+                    </h4>
+                    <p class="price productItem__price">
+                      2 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/accsess/winch (1).jpg" alt="">
+                    <h4 class="productItem__title">
+                      Ручная якорная лебедка
+                      LAXI PRIDE DL
+                    </h4>
+                    <p class="price productItem__price">
+                      11 742 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/accsess/key.jpeg" alt="">
+                    <h4 class="productItem__title">
+                      Ключ для гидроцикла
+                      RF D.E.S.S.TM
+                    </h4>
+                    <p class="price productItem__price">
+                      5 690 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/accsess/table.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Держатель эхолота на струбцине
+                    </h4>
+                    <p class="price productItem__price">
+                      1 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/accsess/nasos.jpg" alt="">
+                    <h4 class="productItem__title">
+                      Электрический насос Marlin GP-60 S
+                    </h4>
+                    <p class="price productItem__price">
+                      5 500 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="product__more">
+      <a class="product__more-link" href="#">Показать ещё</a>
+    </div>
+    </div>
+  </section>
+
+
+  <div class="banner">
+    <div class="container">
+      <a class="banner-link" href="#">
+        <img src="images/contant/banner.jpg" alt="">
+      </a>
+    </div>
+  </div>
+
+
+  <section class="products">
+    <div class="container">
+      <div class="products__inner">
+        <h3 class="prouct__title">
+          С этим товаром покупают
+        </h3>
+        <div class="tabs-wrapper">
+          <div class="tabs products__tabs mobile-overflow">
+            <a class="tab products__tab tab--active" href="#popular-tab-1">Запчасти</a>
+            <a class="tab products__tab" href="#popular-tab-2">Моторы</a>
+            <a class="tab products__tab" href="#popular-tab-3">Шины</a>
+            <a class="tab products__tab" href="#popular-tab-4">Электроника</a>
+            <a class="tab products__tab" href="#popular-tab-5">Инструменты</a>
+            <a class="tab products__tab" href="#popular-tab-6">Аксессуары</a>
+          </div>
+        </div>
+        <div class="tabs-container products__container">
+          <div id="popular-tab-1" class="tabs-content products__content tabs tabs-content--active">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popular-tab-2" class="tabs-content products__content">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor1.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      WaterSnake T18-FW (0.26 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      8 900 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor2.png" alt="">
+                    <h4 class="productItem__title">
+                      Электромотор Condor
+                      NRS-46X (0,65 л.с.)
+                    </h4>
+                    <p class="price productItem__price">
+                      18 300 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor3.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Sea-ProT 2,6 S (2.6 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor4.png" alt="">
+                    <h4 class="productItem__title">
+                      Электромотор
+                      HDX 55L (0.49 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      28 600 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor5.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Sea-Pro T 3 S (3 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      37 500 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor6.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Suzuki DT9.9A S (9.9 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      240 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/motors/motor7.png" alt="">
+                    <h4 class="productItem__title">
+                      Мотор
+                      Mercury ME-30 M (30 л.с)
+                    </h4>
+                    <p class="price productItem__price">
+                      300 000 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popular-tab-3" class="tabs-content products__content tabs">
+            <div class="productSlider">
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem " href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper productItem__notAvailable">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="productSlider__item">
+                <div class="productItem__wrapper">
+                  <button class="productItem__favorite"></button>
+                  <button class="productItem__basket">
+                    <img src="images/basket-white.svg" alt="">
+                  </button>
+                  <a class="productItem__notifyText_link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="productItem productItem--sale" href="#">
+                    <p class="productItem__hovertext">
+                      Посмотреть товар
+                    </p>
+                    <img class="productItem__img" src="images/contant/product-1.png" alt="">
+                    <h4 class="productItem__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price productItem__price">
+                      9 800 ₽
+                    </p>
+                    <p class="productItem__notifyText">
+                      Нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popular-tab-4" class="tabs-content products__content tabs">slider-4</div>
+
+          <!--//доделать слайдер с электроникой -->
+
+          <div id="popular-tab-5" class="tabs-content products__content tabs">slider-5</div>
+
+          <!-- //доделать слайдер с инструменты -->
+          <div id="popular-tab-6" class="tabs-content products__content tabs">slider-6</div>
+
+          <!-- //доделать слайдер с аксессуары -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-inner">
+          <div class="footer__top-item footer__top-newslatter">
+            <h6 class="footer__top-title">
+              Подпишитесь на нашу рассылку
+              и узнавайте о акция быстрее
+            </h6>
+            <form class="footer-form">
+              <input class="footer-form__input" type="text" placeholder="Введите Ваш e-mail:">
+              <button class="footer-form__btn" type="submit">Отправить</button>
+            </form>
+          </div>
+          <div class="footer__top-item footer__top-social">
+            <h6 class="footer__top-title footer__topdrop">
+              Информация
+            </h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#"></a>О компании</li>
+              <li class="footer-list__item"><a href="#"></a>Магазины</li>
+              <li class="footer-list__item"><a href="#"></a>Акции</li>
+              <li class="footer-list__item"><a href="#"></a>Контакты</li>
+            </ul>
+          </div>
+          <div class="footer__top-item footer__top-itemdrop">
+            <h6 class="footer__top-title footer__topdrop">
+              Интернет-магазин
+            </h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#"></a>Доставка и самовывоз</li>
+              <li class="footer-list__item"><a href="#"></a>Оплата</li>
+              <li class="footer-list__item"><a href="#"></a>Возврат-обмен</li>
+              <li class="footer-list__item"><a href="#"></a>Новости</li>
+            </ul>
+          </div>
+          <div class="footer__top-item">
+            <ul class="social-list">
+              <li class="social-list__item">
+                <a href="https://www.instagram.com/">
+                  <img src="images/instagram.svg" alt="">
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a href="https://vk.com/1">
+                  <img src="images/vk.svg" alt="">
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a href="https://www.facebook.com/">
+                  <img src="images/facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a href="https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">
+                  <img src="images/youtube.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a class="footer__bottom-link" href="https://ru.wikipedia.org/wiki/%D0%9E%D1%84%D0%B5%D1%80%D1%82%D0%B0">Договор
+          оферты</a>
+        <a class="footer__bottom-link" href="#">Политика обработки персональных данных </a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/base.js"></script>
+  <script src="plugins/modal.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/ion.rangeSlider.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/jquery.rateyo.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <div class="tabs-wrapper">
+  <div class="tabs">
+    <a class="tab tab--active" href="#"></a>
+  </div>
+  <div class="tabs-container">
+    <div class="tabs-content"></div>
+  </div>
+</div> -->
+
+
+
+
+<!--Класс  productItem__notAvailable => Нет в наличии -->
+<!--Класс  productItem--sale => SALE -->

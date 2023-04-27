@@ -1,0 +1,1 @@
+const modal = wMod.modal ();
